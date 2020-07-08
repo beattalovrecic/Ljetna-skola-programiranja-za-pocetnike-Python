@@ -1,0 +1,11 @@
+number_input = int(input("Please enter a number between 1 and 100: "))
+
+for number_input in range(1, 101):
+    if number_input %3 == 0 and number_input %5 == 0:
+        print("fizzbuzz")
+    elif number_input %3 == 0:
+        print("fizz")
+    elif number_input %5 == 0:
+        print("buzz")
+    else:
+        print(number_input)
