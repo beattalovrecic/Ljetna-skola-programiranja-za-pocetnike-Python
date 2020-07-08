@@ -1,0 +1,14 @@
+first_number = int(input("Write your first number: "))
+second_number = int(input("Write your second number: "))
+arithmetic_operation = input("Choose your arithmetic operation: ")
+
+if arithmetic_operation == "+":
+    print(int(first_number) + int(second_number))
+elif arithmetic_operation == "-":
+    print(int(first_number) - int(second_number))
+elif arithmetic_operation == "*":
+    print(int(first_number) * int(second_number))
+elif arithmetic_operation == "/":
+    print(int(first_number) / int(second_number))
+else:
+    print("I am sorry, I do not recognize this arithmetic operation")
