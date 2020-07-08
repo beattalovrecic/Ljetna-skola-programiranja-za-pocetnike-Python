@@ -1,0 +1,3 @@
+uppercase_input = "Today Is A BeautiFul DAY"
+
+print(uppercase_input.lower())
