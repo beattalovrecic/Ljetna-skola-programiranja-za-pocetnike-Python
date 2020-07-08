@@ -1,0 +1,17 @@
+print("Hello! This is a unit converter that will help you turn your kilometeres into miles!")
+
+km_input = None
+
+while True:
+    km_input = int(input("Input distance in kilometers: "))
+    print(km_input * 0.621371)
+
+    another_input = input("Would you like another conversion [yes/no]? ")
+    if another_input == "yes" or another_input == "Yes":
+        km_input = int(input("Input distance in kilometers: "))
+        print(km_input * 0.621371)
+    elif another_input == "no" or another_input == "No":
+        print("Thank for using our unit converter! :)")
+        break
+    else:
+        break
